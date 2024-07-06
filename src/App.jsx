@@ -11,9 +11,9 @@ const App = () => {
    
   const ChangeColor = () => {
     if (width < 1200) {
-      setColor('white');
+      setColor('white')
     } else {
-      setColor(prevColor => (prevColor === 'white' ? 'black' : 'white'));
+      setColor(prevColor => (prevColor === 'white' ? 'black' : 'white'))
     }
   };
 
